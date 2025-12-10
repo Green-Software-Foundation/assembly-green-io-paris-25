@@ -1,0 +1,101 @@
+Original block:
+```csv
+position_id,participant,question,consensus_status,consensus_location,evidence_text,representation_fidelity
+P001,P8wgqcuub,Q2,acknowledged_as_position,practical_approaches,adding sustainability questions to existing review processes,medium
+P002,P8wgqcuub,Q2,fully_adopted,current_state,Sustainability discussions happen in code reviews around efficiency and cost,high
+P003,P8wgqcuub,Q2,fully_adopted,areas_agreement,leadership accountability performance metrics,high
+P004,P8wgqcuub,Q2,fully_adopted,areas_disagreement,internal cultural transformation and leadership commitment,high
+P005,P8wgqcuub,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P006,P8wgqcuub,Q2,fully_adopted,path_forward,Initial specialist roles can bootstrap capability,high
+P007,P8wgqcuub,Q2,partially_adopted,what_participants_believe,dedicated teams initially to establish frameworks,medium
+P008,P8wgqcuub,Q2,fully_adopted,path_forward,sustainability becoming intrinsic to all technical and business decisions,high
+P009,Pa52wwkew,Q2,fully_adopted,core_challenge,Current structures fragment accountability,high
+P010,Pa52wwkew,Q2,fully_adopted,what_participants_believe,establishing communication channels between technical implementers and decision-makers,high
+P011,Pa52wwkew,Q2,fully_adopted,areas_agreement,fragmented decision-making hampers progress,high
+P012,Pa52wwkew,Q2,fully_adopted,practical_approaches,developing standardized measurement frameworks,high
+P013,Pa52wwkew,Q2,acknowledged_as_position,areas_disagreement,internal cultural transformation and leadership commitment,medium
+P014,Pa52wwkew,Q2,implicit_in_synthesis,core_challenge,sustainability gets deprioritized when it competes with delivery pressure,medium
+P015,Pa52wwkew,Q2,fully_adopted,areas_agreement,financial priorities currently overshadow environmental concerns,high
+P016,Pa52wwkew,Q2,fully_adopted,what_participants_believe,Legal incentives are needed to elevate sustainability to strategic priority status,high
+P017,Pa52wwkew,Q2,implicit_in_synthesis,what_participants_believe,explicit accountability mechanisms,low
+P018,Pa52wwkew,Q2,fully_adopted,what_participants_believe,dedicated teams initially to establish frameworks measurement standards and workflows,high
+P019,Pa52wwkew,Q2,partially_adopted,path_forward,Initial specialist roles can bootstrap capability,medium
+P020,Pa52wwkew,Q2,fully_adopted,practical_approaches,creating examples from successful implementations,high
+P021,Pa52wwkew,Q2,fully_adopted,what_participants_believe,gradual integration into existing roles as sustainability becomes embedded,high
+P022,Pa52wwkew,Q2,fully_adopted,practical_approaches,developing standardized measurement frameworks,high
+P023,Pasy-zppz,Q2,omitted_scope,none,none,none
+P024,Pasy-zppz,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P025,Pasy-zppz,Q2,fully_adopted,areas_disagreement,dedicated roles risk adding friction and reducing individual concern,high
+P026,Pasy-zppz,Q2,fully_adopted,conflicting_positions,concern that separate roles lead to deflection of responsibility,high
+P027,Pbh-u6glt,Q2,fully_adopted,areas_agreement,people want to act responsibly but lack adequate information,high
+P028,Pbh-u6glt,Q2,fully_adopted,current_state,Information about environmental impact doesn't flow effectively,high
+P029,Pbh-u6glt,Q2,omitted_scope,none,none,none
+P030,Pbh-u6glt,Q2,partially_adopted,path_forward,Initial specialist roles can bootstrap capability,medium
+P031,Pbh-u6glt,Q2,implicit_in_synthesis,what_participants_believe,establishing communication channels between technical implementers and decision-makers,low
+P032,Pbh-u6glt,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P033,Piid_rtgn,Q2,fully_adopted,what_participants_believe,integrating sustainability targets into senior leadership KPIs,high
+P034,Piid_rtgn,Q2,fully_adopted,areas_agreement,leadership accountability performance metrics,high
+P035,Piid_rtgn,Q2,implicit_in_synthesis,what_participants_believe,explicit accountability mechanisms,medium
+P036,Piid_rtgn,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P037,Piid_rtgn,Q2,fully_adopted,areas_disagreement,others worry this approach creates tokenistic responses,high
+P038,Piid_rtgn,Q2,fully_adopted,conflicting_positions,concern that separate roles lead to deflection of responsibility go speak to our green guy,high
+P039,Piid_rtgn,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P040,Puc8qnfbg,Q2,fully_adopted,areas_agreement,shared accountability with clear boundaries,high
+P041,Puc8qnfbg,Q2,acknowledged_as_position,areas_agreement,people want to act responsibly but lack adequate information,medium
+P042,Puc8qnfbg,Q2,implicit_in_synthesis,practical_approaches,building from current practices,medium
+P043,Puc8qnfbg,Q2,implicit_in_synthesis,areas_agreement,shared accountability,low
+P044,Puc8qnfbg,Q2,fully_adopted,areas_agreement,automotive responsibility analogy manufacturers suppliers and users,high
+P045,Puc8qnfbg,Q2,fully_adopted,areas_agreement,automotive responsibility analogy manufacturers suppliers and users,high
+P046,Puc8qnfbg,Q2,fully_adopted,areas_agreement,automotive responsibility analogy manufacturers suppliers and users,high
+P047,Puc8qnfbg,Q2,fully_adopted,areas_agreement,we all need incentive to improve and carry responsibility,high
+```
+
+Cleaned content:
+position_id,participant,question,consensus_status,consensus_location,evidence_text,representation_fidelity
+P001,P8wgqcuub,Q2,acknowledged_as_position,practical_approaches,adding sustainability questions to existing review processes,medium
+P002,P8wgqcuub,Q2,fully_adopted,current_state,Sustainability discussions happen in code reviews around efficiency and cost,high
+P003,P8wgqcuub,Q2,fully_adopted,areas_agreement,leadership accountability performance metrics,high
+P004,P8wgqcuub,Q2,fully_adopted,areas_disagreement,internal cultural transformation and leadership commitment,high
+P005,P8wgqcuub,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P006,P8wgqcuub,Q2,fully_adopted,path_forward,Initial specialist roles can bootstrap capability,high
+P007,P8wgqcuub,Q2,partially_adopted,what_participants_believe,dedicated teams initially to establish frameworks,medium
+P008,P8wgqcuub,Q2,fully_adopted,path_forward,sustainability becoming intrinsic to all technical and business decisions,high
+P009,Pa52wwkew,Q2,fully_adopted,core_challenge,Current structures fragment accountability,high
+P010,Pa52wwkew,Q2,fully_adopted,what_participants_believe,establishing communication channels between technical implementers and decision-makers,high
+P011,Pa52wwkew,Q2,fully_adopted,areas_agreement,fragmented decision-making hampers progress,high
+P012,Pa52wwkew,Q2,fully_adopted,practical_approaches,developing standardized measurement frameworks,high
+P013,Pa52wwkew,Q2,acknowledged_as_position,areas_disagreement,internal cultural transformation and leadership commitment,medium
+P014,Pa52wwkew,Q2,implicit_in_synthesis,core_challenge,sustainability gets deprioritized when it competes with delivery pressure,medium
+P015,Pa52wwkew,Q2,fully_adopted,areas_agreement,financial priorities currently overshadow environmental concerns,high
+P016,Pa52wwkew,Q2,fully_adopted,what_participants_believe,Legal incentives are needed to elevate sustainability to strategic priority status,high
+P017,Pa52wwkew,Q2,implicit_in_synthesis,what_participants_believe,explicit accountability mechanisms,low
+P018,Pa52wwkew,Q2,fully_adopted,what_participants_believe,dedicated teams initially to establish frameworks measurement standards and workflows,high
+P019,Pa52wwkew,Q2,partially_adopted,path_forward,Initial specialist roles can bootstrap capability,medium
+P020,Pa52wwkew,Q2,fully_adopted,practical_approaches,creating examples from successful implementations,high
+P021,Pa52wwkew,Q2,fully_adopted,what_participants_believe,gradual integration into existing roles as sustainability becomes embedded,high
+P022,Pa52wwkew,Q2,fully_adopted,practical_approaches,developing standardized measurement frameworks,high
+P023,Pasy-zppz,Q2,omitted_scope,none,none,none
+P024,Pasy-zppz,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P025,Pasy-zppz,Q2,fully_adopted,areas_disagreement,dedicated roles risk adding friction and reducing individual concern,high
+P026,Pasy-zppz,Q2,fully_adopted,conflicting_positions,concern that separate roles lead to deflection of responsibility,high
+P027,Pbh-u6glt,Q2,fully_adopted,areas_agreement,people want to act responsibly but lack adequate information,high
+P028,Pbh-u6glt,Q2,fully_adopted,current_state,Information about environmental impact doesn't flow effectively,high
+P029,Pbh-u6glt,Q2,omitted_scope,none,none,none
+P030,Pbh-u6glt,Q2,partially_adopted,path_forward,Initial specialist roles can bootstrap capability,medium
+P031,Pbh-u6glt,Q2,implicit_in_synthesis,what_participants_believe,establishing communication channels between technical implementers and decision-makers,low
+P032,Pbh-u6glt,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P033,Piid_rtgn,Q2,fully_adopted,what_participants_believe,integrating sustainability targets into senior leadership KPIs,high
+P034,Piid_rtgn,Q2,fully_adopted,areas_agreement,leadership accountability performance metrics,high
+P035,Piid_rtgn,Q2,implicit_in_synthesis,what_participants_believe,explicit accountability mechanisms,medium
+P036,Piid_rtgn,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P037,Piid_rtgn,Q2,fully_adopted,areas_disagreement,others worry this approach creates tokenistic responses,high
+P038,Piid_rtgn,Q2,fully_adopted,conflicting_positions,concern that separate roles lead to deflection of responsibility go speak to our green guy,high
+P039,Piid_rtgn,Q2,fully_adopted,areas_agreement,sustainability should ultimately be integrated into everyone's work,high
+P040,Puc8qnfbg,Q2,fully_adopted,areas_agreement,shared accountability with clear boundaries,high
+P041,Puc8qnfbg,Q2,acknowledged_as_position,areas_agreement,people want to act responsibly but lack adequate information,medium
+P042,Puc8qnfbg,Q2,implicit_in_synthesis,practical_approaches,building from current practices,medium
+P043,Puc8qnfbg,Q2,implicit_in_synthesis,areas_agreement,shared accountability,low
+P044,Puc8qnfbg,Q2,fully_adopted,areas_agreement,automotive responsibility analogy manufacturers suppliers and users,high
+P045,Puc8qnfbg,Q2,fully_adopted,areas_agreement,automotive responsibility analogy manufacturers suppliers and users,high
+P046,Puc8qnfbg,Q2,fully_adopted,areas_agreement,automotive responsibility analogy manufacturers suppliers and users,high
+P047,Puc8qnfbg,Q2,fully_adopted,areas_agreement,we all need incentive to improve and carry responsibility,high

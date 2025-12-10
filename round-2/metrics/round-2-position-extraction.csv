@@ -1,0 +1,48 @@
+position_id,participant,question,position_text,position_type,strength
+P001,P8wgqcuub,Q2,Discuss sustainability in team meetings and with stakeholders,implementation_detail,strong
+P002,P8wgqcuub,Q2,Add sustainability questions to code reviews alongside efficiency and cost,implementation_detail,strong
+P003,P8wgqcuub,Q2,Keep people accountable for choices that impact the environment,core_position,strong
+P004,P8wgqcuub,Q2,Reshape culture to add environmental value,core_position,strong
+P005,P8wgqcuub,Q2,Everyone should take responsibility in any role,core_position,strong
+P006,P8wgqcuub,Q2,Some expertise can help fast-track necessary actions,nuance,moderate
+P007,P8wgqcuub,Q2,Expertise helps identify which actions create impact for specific company,implementation_detail,moderate
+P008,P8wgqcuub,Q2,Sustainability knowledge will eventually become standard across all roles,core_position,moderate
+P009,Pa52wwkew,Q2,Responsibility is split over various levels and won't change significantly,core_position,strong
+P010,Pa52wwkew,Q2,Need to increase and improve communication between all stakeholders,core_position,strong
+P011,Pa52wwkew,Q2,Fragmentation is a major blocker for actual implementation,core_position,strong
+P012,Pa52wwkew,Q2,Generalized standards and tools could help address fragmentation,implementation_detail,strong
+P013,Pa52wwkew,Q2,Mindset change required for management to prioritize sustainability,core_position,strong
+P014,Pa52wwkew,Q2,Unsustainable company has inherent path to failure,nuance,strong
+P015,Pa52wwkew,Q2,Current sentiment focused mainly on finance not sustainability,core_position,strong
+P016,Pa52wwkew,Q2,Sustainability should be incentivized by law,core_position,strong
+P017,Pa52wwkew,Q2,Right mindset opens possibilities for sustainable improvements,nuance,moderate
+P018,Pa52wwkew,Q2,Dedicated teams initially required to kickstart sustainability efforts,core_position,strong
+P019,Pa52wwkew,Q2,Dedicated team gathers and spreads information and workflows,implementation_detail,strong
+P020,Pa52wwkew,Q2,Use initial improvements as examples for rest of organization,implementation_detail,moderate
+P021,Pa52wwkew,Q2,Eventually dedicated team becomes unnecessary as culture spreads company-wide,core_position,moderate
+P022,Pa52wwkew,Q2,Open framework for standardized measurement and reporting is key,implementation_detail,strong
+P023,Pasy-zppz,Q2,Software sustainability should be integrated in RSE policy at company level,implementation_detail,moderate
+P024,Pasy-zppz,Q2,Should be everyone's responsibility,core_position,strong
+P025,Pasy-zppz,Q2,Creating dedicated roles will add friction,dissenting,strong
+P026,Pasy-zppz,Q2,People will not be as concerned if there are dedicated roles,dissenting,strong
+P027,Pbh-u6glt,Q2,Everyone wants to do best with information they have,core_position,strong
+P028,Pbh-u6glt,Q2,Lack of information from corporations to employees on sustainability stance,core_position,strong
+P029,Pbh-u6glt,Q2,Many corporations do sustainability just for brand requirements,nuance,moderate
+P030,Pbh-u6glt,Q2,Should be at least a consultant to help leaders know what to do,implementation_detail,moderate
+P031,Pbh-u6glt,Q2,Leaders can then give employees right steps and information,implementation_detail,moderate
+P032,Pbh-u6glt,Q2,Should be part of everyone's mindset and everyone responsible,core_position,strong
+P033,Piid_rtgn,Q2,Incorporate green targets into all senior leaders KPI framework,implementation_detail,strong
+P034,Piid_rtgn,Q2,Senior staff should be judged on sustainability of their outputs,core_position,strong
+P035,Piid_rtgn,Q2,This creates team dynamics focused around sustainability,nuance,moderate
+P036,Piid_rtgn,Q2,Should be everyone's role not separate roles,core_position,strong
+P037,Piid_rtgn,Q2,Separate roles often end up with tokenistic responses,dissenting,strong
+P038,Piid_rtgn,Q2,Separate roles lead to 'go speak to our green guy' deflection,dissenting,strong
+P039,Piid_rtgn,Q2,Involvement should be across the board,core_position,strong
+P040,Puc8qnfbg,Q2,Everyone is responsible based on causal relationship with impact,core_position,strong
+P041,Puc8qnfbg,Q2,End users should be made aware and get incentive to limit use,implementation_detail,strong
+P042,Puc8qnfbg,Q2,Software developers should optimize for larger scale software,implementation_detail,strong
+P043,Puc8qnfbg,Q2,Organizations should do both awareness and optimization,implementation_detail,moderate
+P044,Puc8qnfbg,Q2,Car analogy: manufacturers build clean cars cleanly,nuance,moderate
+P045,Puc8qnfbg,Q2,Car analogy: suppliers provide green electricity and fuel,nuance,moderate
+P046,Puc8qnfbg,Q2,Car analogy: users limit their driving,nuance,moderate
+P047,Puc8qnfbg,Q2,We all need incentive to improve and carry responsibility,core_position,strong

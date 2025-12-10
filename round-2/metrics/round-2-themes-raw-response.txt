@@ -1,0 +1,11 @@
+theme,count
+cultural_change,4
+shared_responsibility,5
+leadership_and_governance,4
+organizational_structures,3
+communication_and_stakeholder_alignment,2
+incentives_and_accountability,3
+visibility_and_measurement,2
+knowledge_and_expertise,2
+policy_integration,2
+user_awareness,2
