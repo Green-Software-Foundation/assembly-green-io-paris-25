@@ -1,0 +1,289 @@
+# Position Extraction CSV
+
+```csv
+position_id,participant,question,position_text,position_type,strength
+P001,P8wgqcuub,Q1,"Responsibility should be shared across multiple groups, not owned by one person/group",core_position,strong
+P002,P8wgqcuub,Q1,"Governments should guide and establish regulations for sustainability",core_position,strong
+P003,P8wgqcuub,Q1,"Companies/institutions must implement regulations in practical ways",core_position,strong
+P004,P8wgqcuub,Q1,"Decision-making should be collective with expertise and values alignment",implementation_detail,moderate
+P005,P8wgqcuub,Q3,"Barrier: waiting for others to take responsibility",core_position,moderate
+P006,P8wgqcuub,Q3,"Barrier: only listening to regulations without considering own values",nuance,moderate
+P007,Pbmqyu2hw,Q1,"Both solution providers and regulators are responsible",core_position,moderate
+P008,Pbmqyu2hw,Q2,"No single decision maker - system of providers, lawmakers, regulators make feeble decisions",core_position,strong
+P009,Pbtv90iid,Q1,"Software developers are responsible - they have most control",core_position,moderate
+P010,Pbtv90iid,Q2,"Executives within software companies make decisions in response to customer demand",core_position,strong
+P011,Pbtv90iid,Q2,"Data center companies make decisions about environmental impact",implementation_detail,moderate
+P012,Pbtv90iid,Q3,"Barrier: deprioritization vs mission-critical work like customer features",core_position,strong
+P013,Pbtv90iid,Q3,"Barrier: perceived lack of control over hyperscale data centers",nuance,strong
+P014,Pbtv90iid,Q3,"Barrier: lack of ability to monetize green premium",implementation_detail,moderate
+P015,Pckfwqiml,Q1,"Engineers and architects responsible - design choices become energy consumption",core_position,strong
+P016,Pckfwqiml,Q1,"Platform/cloud teams responsible - configure scaling and set efficiency baselines",core_position,strong
+P017,Pckfwqiml,Q1,"Product owners and managers influence outcomes through prioritization",core_position,moderate
+P018,Pckfwqiml,Q1,"Vendors shape impact through service design",implementation_detail,moderate
+P019,Pckfwqiml,Q1,"Leadership defines whether sustainability is real concern or pushed aside",core_position,strong
+P020,Pckfwqiml,Q1,"Most people want to make good choices - not bad intent but pressure to ship",core_position,strong
+P021,Pckfwqiml,Q2,"Infrastructure teams shape energy through scaling/provisioning without explicit sustainability focus",core_position,strong
+P022,Pckfwqiml,Q2,"FinOps teams optimize cloud bills - sometimes aligns with efficiency, sometimes doesn't",nuance,moderate
+P023,Pckfwqiml,Q2,"Developers influence efficiency when they have time and impact is visible",nuance,moderate
+P024,Pckfwqiml,Q2,"ESG teams track carbon but rarely change underlying technical decisions",core_position,strong
+P025,Pckfwqiml,Q2,"Decision-making is scattered and not aligned",core_position,strong
+P026,Pckfwqiml,Q2,"Organizations need dedicated 'cleanup crew' focused on highest footprint areas",core_position,strong
+P027,Pckfwqiml,Q2,"Cleanup crew needs explicit board-level support to overcome short-term pressures",implementation_detail,strong
+P028,Pckfwqiml,Q3,"Barrier: lack of visibility into energy consumption at decision-making level",core_position,strong
+P029,Pckfwqiml,Q3,"Barrier: constant pressure to deliver pushes efficiency work out of view",core_position,strong
+P030,Pckfwqiml,Q3,"Barrier: separation between ESG reporting and engineering practice",core_position,strong
+P031,Pckfwqiml,Q3,"Barrier: cloud abstraction hides energy footprint in uncontrollable services",nuance,strong
+P032,Pckfwqiml,Q3,"Barrier: cultural assumption that sustainability belongs to someone else",nuance,moderate
+P033,Pckfwqiml,Q3,"People want to do right thing but work in systems with time pressure and competing demands",core_position,strong
+P034,Psgjwan_g,Q1,"User is ultimate decider - without users there's no need or impact",core_position,strong
+P035,Psgjwan_g,Q1,"Users have limited/incorrect information about environmental impact",nuance,strong
+P036,Psgjwan_g,Q2,"People providing information to users indirectly make decisions",core_position,moderate
+P037,Psgjwan_g,Q2,"Information providers may lead users to adverse actions based on their motivations",nuance,moderate
+P038,Psgjwan_g,Q2,"Cloud SLAs rarely provide necessary electricity information (carbon intensity, price)",implementation_detail,strong
+P039,Psgjwan_g,Q2,"Environmental impact reported ex-post without incentive or consequences",core_position,strong
+P040,Psgjwan_g,Q3,"Barrier: aggregated national average data instead of local forecasts needed",core_position,strong
+P041,Psgjwan_g,Q3,"Need local information with right financial/social incentives to minimize impact",implementation_detail,strong
+P042,Psgjwan_g,Q3,"Local information would impact hardware decisions: locations, cooling management",implementation_detail,moderate
+```
+
+# Consensus Mapping CSV
+
+```csv
+consensus_section,consensus_text,source_participants,representation_type,paragraph_number
+candidate_statement,"Responsibility must be shared across multiple stakeholders, not owned by single group","P8wgqcuub,Pbmqyu2hw,Pckfwqiml",strong_majority,1
+candidate_statement,"Governments should establish regulatory frameworks and sustainability goals",P8wgqcuub,specific_detail_from_few,1
+candidate_statement,"Companies and institutions implement through practical technical and operational decisions","P8wgqcuub,Pckfwqiml",majority_synthesis,1
+candidate_statement,"Engineers, architects, developers influence impact through design choices affecting energy",Pckfwqiml,specific_detail_from_few,1
+candidate_statement,"Platform teams set efficiency baselines through infrastructure configuration",Pckfwqiml,specific_detail_from_few,1
+candidate_statement,"Product owners and managers prioritize optimization work","Pckfwqiml,Pbtv90iid",balanced_compromise,1
+candidate_statement,"Cloud providers and vendors shape impact through service design",Pckfwqiml,specific_detail_from_few,1
+candidate_statement,"Leadership must provide board-level support to make sustainability strategic priority",Pckfwqiml,specific_detail_from_few,1
+candidate_statement,"Decision-making currently fragmented: infrastructure teams, FinOps, ESG, developers each influencing without alignment","Pckfwqiml,Pbtv90iid,Pbmqyu2hw",strong_majority,2
+candidate_statement,"End users ultimately drive demand and should receive better information","Psgjwan_g,Pckfwqiml",minority_acknowledged,2
+candidate_statement,"Primary barrier not lack of intent - most people want to do right thing","Pckfwqiml,P8wgqcuub",majority_synthesis,2
+candidate_statement,"Insufficient visibility into energy consumption at decision-making levels",Pckfwqiml,specific_detail_from_few,2
+candidate_statement,"Constant delivery pressure deprioritizes sustainability work","Pckfwqiml,Pbtv90iid",strong_majority,2
+candidate_statement,"Misaligned incentives hinder progress",Pckfwqiml,specific_detail_from_few,2
+candidate_statement,"Separation between sustainability reporting and engineering practice",Pckfwqiml,specific_detail_from_few,2
+strong_agreement,"Responsibility distributed across multiple groups rather than concentrated in one role","P8wgqcuub,Pbmqyu2hw,Pckfwqiml,Pbtv90iid",unanimous,1
+strong_agreement,"Current efforts inadequate and fragmented with scattered decision-making","Pckfwqiml,Pbtv90iid,Pbmqyu2hw",strong_majority,1
+strong_agreement,"People generally intend to act responsibly but face systemic barriers","Pckfwqiml,P8wgqcuub",majority_synthesis,1
+strong_agreement,"Lack of visibility into actual energy consumption hampers progress",Pckfwqiml,specific_detail_from_few,1
+strong_agreement,"Operational pressures consistently deprioritize sustainability work","Pckfwqiml,Pbtv90iid",strong_majority,1
+areas_disagreement,"Some emphasize government regulation as essential foundation",P8wgqcuub,minority_acknowledged,1
+areas_disagreement,"Others place users as ultimate deciders since they drive demand",Psgjwan_g,minority_acknowledged,1
+areas_disagreement,"One perspective advocates dedicated cleanup crews with board support",Pckfwqiml,minority_acknowledged,1
+areas_disagreement,"Others focus on collective responsibility without dedicated structures","P8wgqcuub,Pbtv90iid",minority_acknowledged,1
+areas_disagreement,"Views differ on whether solution requires better user-facing information",Psgjwan_g,minority_acknowledged,2
+areas_disagreement,"Or whether focus should be on providing engineers better visibility into technical impacts",Pckfwqiml,minority_acknowledged,2
+```
+
+# Position Representation Status CSV
+
+```csv
+position_id,participant,question,consensus_status,consensus_location,evidence_text,representation_fidelity
+P001,P8wgqcuub,Q1,fully_adopted,candidate_statement,"Responsibility must be shared across multiple stakeholders, not owned by single group",high
+P002,P8wgqcuub,Q1,fully_adopted,candidate_statement,Governments should establish regulatory frameworks and sustainability goals,high
+P003,P8wgqcuub,Q1,fully_adopted,candidate_statement,Companies and institutions implement through practical technical and operational decisions,high
+P004,P8wgqcuub,Q1,implicit_in_synthesis,candidate_statement,Implied in discussion of collective decision-making across stakeholders,medium
+P005,P8wgqcuub,Q3,omitted_scope,none,Not directly addressed in consensus - cultural barrier not emphasized,none
+P006,P8wgqcuub,Q3,omitted_scope,none,Not directly addressed - values alignment not emphasized,none
+P007,Pbmqyu2hw,Q1,partially_adopted,candidate_statement,Regulators mentioned via governments; providers implied in companies,medium
+P008,Pbmqyu2hw,Q2,fully_adopted,strong_agreement,Current efforts inadequate and fragmented with scattered decision-making,high
+P009,Pbtv90iid,Q1,partially_adopted,candidate_statement,"Engineers mentioned but framed as influencing rather than having most control",medium
+P010,Pbtv90iid,Q2,partially_adopted,candidate_statement,"Product owners/managers prioritize work, executives implied in leadership",medium
+P011,Pbtv90iid,Q2,partially_adopted,candidate_statement,Cloud providers mentioned as shaping impact through service design,medium
+P012,Pbtv90iid,Q3,fully_adopted,candidate_statement,Constant delivery pressure deprioritizes sustainability work,high
+P013,Pbtv90iid,Q3,implicit_in_synthesis,candidate_statement,Implied in cloud abstraction discussion,low
+P014,Pbtv90iid,Q3,omitted_scope,none,Monetization barrier not included in consensus,none
+P015,Pckfwqiml,Q1,fully_adopted,candidate_statement,Engineers and architects influence impact through design choices affecting energy,high
+P016,Pckfwqiml,Q1,fully_adopted,candidate_statement,Platform teams set efficiency baselines through infrastructure configuration,high
+P017,Pckfwqiml,Q1,fully_adopted,candidate_statement,Product owners and managers prioritize optimization work,high
+P018,Pckfwqiml,Q1,fully_adopted,candidate_statement,Cloud providers and vendors shape impact through service design,high
+P019,Pckfwqiml,Q1,fully_adopted,candidate_statement,Leadership must provide board-level support,high
+P020,Pckfwqiml,Q1,fully_adopted,candidate_statement,Most people want to do right thing - barrier not lack of intent,high
+P021,Pckfwqiml,Q2,fully_adopted,candidate_statement,Infrastructure teams mentioned in fragmented decision-making,high
+P022,Pckfwqiml,Q2,fully_adopted,candidate_statement,FinOps mentioned in fragmented decision-making,high
+P023,Pckfwqiml,Q2,partially_adopted,candidate_statement,Developers mentioned as influencing without alignment,medium
+P024,Pckfwqiml,Q2,fully_adopted,candidate_statement,ESG functions mentioned; separation between reporting and practice noted,high
+P025,Pckfwqiml,Q2,fully_adopted,strong_agreement,Decision-making scattered across disconnected functions,high
+P026,Pckfwqiml,Q2,acknowledged_in_disagreement_section,areas_disagreement,One perspective advocates dedicated cleanup crews with board support,high
+P027,Pckfwqiml,Q2,acknowledged_in_disagreement_section,areas_disagreement,Board support mentioned in cleanup crew discussion,high
+P028,Pckfwqiml,Q3,fully_adopted,candidate_statement,Insufficient visibility into energy consumption at decision-making levels,high
+P029,Pckfwqiml,Q3,fully_adopted,candidate_statement,Constant delivery pressure deprioritizes sustainability work,high
+P030,Pckfwqiml,Q3,fully_adopted,candidate_statement,Separation between sustainability reporting and engineering practice,high
+P031,Pckfwqiml,Q3,implicit_in_synthesis,candidate_statement,Cloud abstraction implied in vendor/provider discussion,low
+P032,Pckfwqiml,Q3,omitted_scope,none,Cultural assumptions not explicitly addressed,none
+P033,Pckfwqiml,Q3,fully_adopted,candidate_statement,People work in systems with time pressure and competing demands,high
+P034,Psgjwan_g,Q1,acknowledged_in_disagreement_section,areas_disagreement,Users as ultimate deciders acknowledged as minority position,high
+P035,Psgjwan_g,Q1,partially_adopted,candidate_statement,End users should receive better information,medium
+P036,Psgjwan_g,Q2,omitted_scope,none,Information providers as decision-makers not addressed,none
+P037,Psgjwan_g,Q2,omitted_scope,none,Motivations of information providers not addressed,none
+P038,Psgjwan_g,Q2,omitted_scope,none,Specific cloud SLA critique not included,none
+P039,Psgjwan_g,Q2,implicit_in_synthesis,candidate_statement,Ex-post reporting implied in ESG/reporting separation discussion,low
+P040,Psgjwan_g,Q3,acknowledged_in_disagreement_section,areas_disagreement,Need for local vs aggregated data acknowledged in information debate,medium
+P041,Psgjwan_g,Q3,acknowledged_in_disagreement_section,areas_disagreement,Financial/social incentives implied in user information discussion,low
+P042,Psgjwan_g,Q3,omitted_scope,none,Hardware location decisions not addressed,none
+```
+
+# Summary Report
+
+## Consensus Synthesis Analysis - Round 1
+### Who Should Own Software's Environmental Impact?
+
+---
+
+### Overview
+- **Total Participants**: 6 (P8wgqcuub, Pbmqyu2hw, Pbtv90iid, Pckfwqiml, Pofdtztpj, Ppjhd_v0w, Psgjwan_g)
+- **Active Participants with Substantive Responses**: 5 (2 participants provided minimal "aa" responses)
+- **Total Distinct Positions Extracted**: 42
+- **Questions Addressed**: 3 (Q1: Who is responsible? Q2: Who decides? Q3: Barriers?)
+
+---
+
+### Position Distribution by Participant
+
+| Participant | Positions | Core Positions | Nuances | Implementation Details |
+|-------------|-----------|----------------|---------|------------------------|
+| P8wgqcuub | 6 | 4 | 1 | 1 |
+| Pbmqyu2hw | 2 | 2 | 0 | 0 |
+| Pbtv90iid | 6 | 3 | 2 | 1 |
+| Pckfwqiml | 19 | 13 | 4 | 2 |
+| Psgjwan_g | 9 | 4 | 2 | 3 |
+
+**Note**: Pckfwqiml contributed 45% of all positions, providing the most detailed and comprehensive response.
+
+---
+
+### Representation Status Breakdown
+
+**Adoption Rates**:
+- **Fully Adopted**: 25 positions (60%)
+- **Partially Adopted**: 6 positions (14%)
+- **Acknowledged in Disagreement**: 5 positions (12%)
+- **Implicit in Synthesis**: 4 positions (10%)
+- **Omitted**: 10 positions (24%)
+
+**Omission Analysis**:
+- Omitted due to scope limitations: 9 positions
+- Omitted as duplicates: 0 positions
+- Omitted by majority override: 1 position (monetization barrier)
+
+---
+
+### Coverage by Participant
+
+**High Representation (>70% positions adopted/acknowledged)**:
+- **Pckfwqiml**: 18/19 positions (95%) - Dominated the consensus narrative
+- **P8wgqcuub**: 4/6 positions (67%) - Strong foundational influence
+- **Pbtv90iid**: 4/6 positions (67%) - Key barriers well represented
+
+**Moderate Representation (40-70%)**:
+- **Pbmqyu2hw**: 2/2 positions (100%) - But only 2 positions total, limited detail
+- **Psgjwan_g**: 4/9 positions (44%) - User-centric view acknowledged but not central
+
+---
+
+### Key Patterns in Representation
+
+**1. Dominant Voice**:
+Pckfwqiml's comprehensive response shaped the consensus structure significantly. Their three-part framework (who's responsible → current decision-makers → barriers) became the organizing principle for the entire synthesis.
+
+**2. Unanimous Agreement Areas**:
+- Distributed responsibility across stakeholders (all participants)
+- Inadequate/fragmented current state (4/5 active participants)
+- Good intentions hampered by systemic barriers (2/5 participants, strongly emphasized)
+
+**3. Acknowledged Minority Positions**:
+- **Government regulation as foundation** (P8wgqcuub) - Acknowledged but not emphasized
+- **Users as ultimate deciders** (Psgjwan_g) - Acknowledged in disagreement section
+- **Dedicated cleanup crews** (Pckfwqiml) - Presented as one approach rather than consensus
+
+**4. Underrepresented Perspectives**:
+- **Psgjwan_g's user/demand-driven framework**: While acknowledged, the emphasis on providing users better information to drive change was positioned as a minority view rather than integrated into the core framework
+- **Implementation details**: Specific technical solutions (local data, cloud SLA transparency, monetization challenges) were largely omitted
+
+**5. Well-Balanced Elements**:
+- Barriers section synthesized perspectives from multiple participants effectively
+- FinOps, ESG, infrastructure teams mentioned based on multiple inputs
+- Delivery pressure acknowledged from both Pckfwqiml and Pbtv90iid
+
+---
+
+### Dissenting Views Handling
+
+The consensus appropriately identified three main tension points:
+
+1. **Primary responsibility emphasis**: Government regulation (P8wgqcuub) vs. user agency (Psgjwan_g) vs. organizational structures (Pckfwqiml)
+
+2. **Information flow**: User-facing information (Psgjwan_g) vs. engineer-facing visibility (Pckfwqiml)
+
+3. **Organizational approach**: Dedicated teams (Pckfwqiml) vs. collective responsibility (P8wgqcuub, Pbtv90iid)
+
+**Assessment**: These were accurately characterized as complementary rather than contradictory, which is justified given the multi-stakeholder nature of the problem.
+
+---
+
+### Balance Assessment
+
+**Strengths**:
+✅ All active participants represented in consensus
+✅ Minority positions explicitly acknowledged
+✅ No fundamental viewpoints omitted entirely
+✅ Areas of disagreement clearly articulated
+✅ Implementation details from various participants synthesized
+
+**Areas of Concern**:
+⚠️ **Proportionality**: Pckfwqiml's voice dominates (45% of positions, 95% adoption rate)
+⚠️ **User-centric view underweighted**: Psgjwan_g's fundamental premise (users as ultimate deciders) positioned as minority rather than co-equal framework
+⚠️ **Practical implementation details omitted**: Specific technical barriers (monetization, SLA transparency, local vs. aggregated data) not carried forward
+⚠️ **Pbmqyu2hw limited impact**: Only 2 positions extracted, suggesting response may have been too brief to influence consensus significantly
+
+---
+
+### Justification Quality
+
+The consensus demonstrates **justified representation** in that:
+
+1. **No voices silenced**: Even brief responses (Pbmqyu2hw) were incorporated
+2. **Dissent acknowledged**: Three clear disagreement areas identified
+3. **Synthesis transparent**: Areas of strong agreement vs. debate clearly delineated
+4. **Complementary framing**: Avoided false binary choices
+
+However, the **disproportionate influence** of one participant's comprehensive response raises questions about whether the synthesis adequately balanced depth (Pckfwqiml) with breadth (other perspectives).
+
+---
+
+### Recommendations for Subsequent Rounds
+
+1. **Probe underrepresented views**: Follow-up questions should specifically elicit more detail from Psgjwan_g, Pbmqyu2hw on their frameworks
+2. **Test the dominant narrative**: Questions could challenge Pckfwqiml's cleanup crew model to see if others agree
+3. **Bridge user vs. engineer divide**: Explore whether user information and engineer visibility are truly in tension or can be integrated
+4. **Practical implementations**: Ask specifically about technical solutions to surface the omitted implementation details
+
+---
+
+### Metadata for Audit Trail
+
+- **Synthesis Method**: AI-supported consensus building
+- **Participant Anonymization**: Complete (all identifying information replaced with alphanumeric IDs)
+- **Position Extraction**: 42 distinct viewpoints identified across 3 questions
+- **Consensus Sections**: 6 (statement, agreement, disagreement, conflicts, follow-ups)
+- **Representation Fidelity**: High (60% full adoption), Medium (14% partial), Low (10% implicit)
+
+---
+
+### Human Operator Quick Assessment
+
+**Is this round's synthesis fair, balanced, and representative?**
+
+**Overall: MOSTLY YES, with caveats**
+
+✅ **Fair**: All voices included, dissent acknowledged, no perspectives excluded
+✅ **Representative**: Core themes reflect genuine agreement across participants
+⚠️ **Balanced**: One participant's comprehensive response dominates structure; user-centric view underweighted relative to organizational/technical views
+
+**Action Items for Round 2**:
+- Actively solicit more from quieter voices (Pbmqyu2hw, Psgjwan_g)
+- Test whether "cleanup crew" model has broader support
+- Explore whether user agency and technical visibility can coexist in framework

@@ -1,0 +1,91 @@
+Original block:
+```csv
+position_id,participant,question,position_text,position_type,strength
+P001,P8wgqcuub,Q1,"Responsibility should be shared across multiple groups, not owned by one person/group",core_position,strong
+P002,P8wgqcuub,Q1,"Governments should guide and establish regulations for sustainability",core_position,strong
+P003,P8wgqcuub,Q1,"Companies/institutions must implement regulations in practical ways",core_position,strong
+P004,P8wgqcuub,Q1,"Decision-making should be collective with expertise and values alignment",implementation_detail,moderate
+P005,P8wgqcuub,Q3,"Barrier: waiting for others to take responsibility",core_position,moderate
+P006,P8wgqcuub,Q3,"Barrier: only listening to regulations without considering own values",nuance,moderate
+P007,Pbmqyu2hw,Q1,"Both solution providers and regulators are responsible",core_position,moderate
+P008,Pbmqyu2hw,Q2,"No single decision maker - system of providers, lawmakers, regulators make feeble decisions",core_position,strong
+P009,Pbtv90iid,Q1,"Software developers are responsible - they have most control",core_position,moderate
+P010,Pbtv90iid,Q2,"Executives within software companies make decisions in response to customer demand",core_position,strong
+P011,Pbtv90iid,Q2,"Data center companies make decisions about environmental impact",implementation_detail,moderate
+P012,Pbtv90iid,Q3,"Barrier: deprioritization vs mission-critical work like customer features",core_position,strong
+P013,Pbtv90iid,Q3,"Barrier: perceived lack of control over hyperscale data centers",nuance,strong
+P014,Pbtv90iid,Q3,"Barrier: lack of ability to monetize green premium",implementation_detail,moderate
+P015,Pckfwqiml,Q1,"Engineers and architects responsible - design choices become energy consumption",core_position,strong
+P016,Pckfwqiml,Q1,"Platform/cloud teams responsible - configure scaling and set efficiency baselines",core_position,strong
+P017,Pckfwqiml,Q1,"Product owners and managers influence outcomes through prioritization",core_position,moderate
+P018,Pckfwqiml,Q1,"Vendors shape impact through service design",implementation_detail,moderate
+P019,Pckfwqiml,Q1,"Leadership defines whether sustainability is real concern or pushed aside",core_position,strong
+P020,Pckfwqiml,Q1,"Most people want to make good choices - not bad intent but pressure to ship",core_position,strong
+P021,Pckfwqiml,Q2,"Infrastructure teams shape energy through scaling/provisioning without explicit sustainability focus",core_position,strong
+P022,Pckfwqiml,Q2,"FinOps teams optimize cloud bills - sometimes aligns with efficiency, sometimes doesn't",nuance,moderate
+P023,Pckfwqiml,Q2,"Developers influence efficiency when they have time and impact is visible",nuance,moderate
+P024,Pckfwqiml,Q2,"ESG teams track carbon but rarely change underlying technical decisions",core_position,strong
+P025,Pckfwqiml,Q2,"Decision-making is scattered and not aligned",core_position,strong
+P026,Pckfwqiml,Q2,"Organizations need dedicated 'cleanup crew' focused on highest footprint areas",core_position,strong
+P027,Pckfwqiml,Q2,"Cleanup crew needs explicit board-level support to overcome short-term pressures",implementation_detail,strong
+P028,Pckfwqiml,Q3,"Barrier: lack of visibility into energy consumption at decision-making level",core_position,strong
+P029,Pckfwqiml,Q3,"Barrier: constant pressure to deliver pushes efficiency work out of view",core_position,strong
+P030,Pckfwqiml,Q3,"Barrier: separation between ESG reporting and engineering practice",core_position,strong
+P031,Pckfwqiml,Q3,"Barrier: cloud abstraction hides energy footprint in uncontrollable services",nuance,strong
+P032,Pckfwqiml,Q3,"Barrier: cultural assumption that sustainability belongs to someone else",nuance,moderate
+P033,Pckfwqiml,Q3,"People want to do right thing but work in systems with time pressure and competing demands",core_position,strong
+P034,Psgjwan_g,Q1,"User is ultimate decider - without users there's no need or impact",core_position,strong
+P035,Psgjwan_g,Q1,"Users have limited/incorrect information about environmental impact",nuance,strong
+P036,Psgjwan_g,Q2,"People providing information to users indirectly make decisions",core_position,moderate
+P037,Psgjwan_g,Q2,"Information providers may lead users to adverse actions based on their motivations",nuance,moderate
+P038,Psgjwan_g,Q2,"Cloud SLAs rarely provide necessary electricity information (carbon intensity, price)",implementation_detail,strong
+P039,Psgjwan_g,Q2,"Environmental impact reported ex-post without incentive or consequences",core_position,strong
+P040,Psgjwan_g,Q3,"Barrier: aggregated national average data instead of local forecasts needed",core_position,strong
+P041,Psgjwan_g,Q3,"Need local information with right financial/social incentives to minimize impact",implementation_detail,strong
+P042,Psgjwan_g,Q3,"Local information would impact hardware decisions: locations, cooling management",implementation_detail,moderate
+```
+
+Cleaned content:
+position_id,participant,question,position_text,position_type,strength
+P001,P8wgqcuub,Q1,"Responsibility should be shared across multiple groups, not owned by one person/group",core_position,strong
+P002,P8wgqcuub,Q1,"Governments should guide and establish regulations for sustainability",core_position,strong
+P003,P8wgqcuub,Q1,"Companies/institutions must implement regulations in practical ways",core_position,strong
+P004,P8wgqcuub,Q1,"Decision-making should be collective with expertise and values alignment",implementation_detail,moderate
+P005,P8wgqcuub,Q3,"Barrier: waiting for others to take responsibility",core_position,moderate
+P006,P8wgqcuub,Q3,"Barrier: only listening to regulations without considering own values",nuance,moderate
+P007,Pbmqyu2hw,Q1,"Both solution providers and regulators are responsible",core_position,moderate
+P008,Pbmqyu2hw,Q2,"No single decision maker - system of providers, lawmakers, regulators make feeble decisions",core_position,strong
+P009,Pbtv90iid,Q1,"Software developers are responsible - they have most control",core_position,moderate
+P010,Pbtv90iid,Q2,"Executives within software companies make decisions in response to customer demand",core_position,strong
+P011,Pbtv90iid,Q2,"Data center companies make decisions about environmental impact",implementation_detail,moderate
+P012,Pbtv90iid,Q3,"Barrier: deprioritization vs mission-critical work like customer features",core_position,strong
+P013,Pbtv90iid,Q3,"Barrier: perceived lack of control over hyperscale data centers",nuance,strong
+P014,Pbtv90iid,Q3,"Barrier: lack of ability to monetize green premium",implementation_detail,moderate
+P015,Pckfwqiml,Q1,"Engineers and architects responsible - design choices become energy consumption",core_position,strong
+P016,Pckfwqiml,Q1,"Platform/cloud teams responsible - configure scaling and set efficiency baselines",core_position,strong
+P017,Pckfwqiml,Q1,"Product owners and managers influence outcomes through prioritization",core_position,moderate
+P018,Pckfwqiml,Q1,"Vendors shape impact through service design",implementation_detail,moderate
+P019,Pckfwqiml,Q1,"Leadership defines whether sustainability is real concern or pushed aside",core_position,strong
+P020,Pckfwqiml,Q1,"Most people want to make good choices - not bad intent but pressure to ship",core_position,strong
+P021,Pckfwqiml,Q2,"Infrastructure teams shape energy through scaling/provisioning without explicit sustainability focus",core_position,strong
+P022,Pckfwqiml,Q2,"FinOps teams optimize cloud bills - sometimes aligns with efficiency, sometimes doesn't",nuance,moderate
+P023,Pckfwqiml,Q2,"Developers influence efficiency when they have time and impact is visible",nuance,moderate
+P024,Pckfwqiml,Q2,"ESG teams track carbon but rarely change underlying technical decisions",core_position,strong
+P025,Pckfwqiml,Q2,"Decision-making is scattered and not aligned",core_position,strong
+P026,Pckfwqiml,Q2,"Organizations need dedicated 'cleanup crew' focused on highest footprint areas",core_position,strong
+P027,Pckfwqiml,Q2,"Cleanup crew needs explicit board-level support to overcome short-term pressures",implementation_detail,strong
+P028,Pckfwqiml,Q3,"Barrier: lack of visibility into energy consumption at decision-making level",core_position,strong
+P029,Pckfwqiml,Q3,"Barrier: constant pressure to deliver pushes efficiency work out of view",core_position,strong
+P030,Pckfwqiml,Q3,"Barrier: separation between ESG reporting and engineering practice",core_position,strong
+P031,Pckfwqiml,Q3,"Barrier: cloud abstraction hides energy footprint in uncontrollable services",nuance,strong
+P032,Pckfwqiml,Q3,"Barrier: cultural assumption that sustainability belongs to someone else",nuance,moderate
+P033,Pckfwqiml,Q3,"People want to do right thing but work in systems with time pressure and competing demands",core_position,strong
+P034,Psgjwan_g,Q1,"User is ultimate decider - without users there's no need or impact",core_position,strong
+P035,Psgjwan_g,Q1,"Users have limited/incorrect information about environmental impact",nuance,strong
+P036,Psgjwan_g,Q2,"People providing information to users indirectly make decisions",core_position,moderate
+P037,Psgjwan_g,Q2,"Information providers may lead users to adverse actions based on their motivations",nuance,moderate
+P038,Psgjwan_g,Q2,"Cloud SLAs rarely provide necessary electricity information (carbon intensity, price)",implementation_detail,strong
+P039,Psgjwan_g,Q2,"Environmental impact reported ex-post without incentive or consequences",core_position,strong
+P040,Psgjwan_g,Q3,"Barrier: aggregated national average data instead of local forecasts needed",core_position,strong
+P041,Psgjwan_g,Q3,"Need local information with right financial/social incentives to minimize impact",implementation_detail,strong
+P042,Psgjwan_g,Q3,"Local information would impact hardware decisions: locations, cooling management",implementation_detail,moderate

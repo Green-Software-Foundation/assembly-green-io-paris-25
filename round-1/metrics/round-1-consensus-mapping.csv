@@ -1,0 +1,27 @@
+consensus_section,consensus_text,source_participants,representation_type,paragraph_number
+candidate_statement,"Responsibility must be shared across multiple stakeholders, not owned by single group","P8wgqcuub,Pbmqyu2hw,Pckfwqiml",strong_majority,1
+candidate_statement,"Governments should establish regulatory frameworks and sustainability goals",P8wgqcuub,specific_detail_from_few,1
+candidate_statement,"Companies and institutions implement through practical technical and operational decisions","P8wgqcuub,Pckfwqiml",majority_synthesis,1
+candidate_statement,"Engineers, architects, developers influence impact through design choices affecting energy",Pckfwqiml,specific_detail_from_few,1
+candidate_statement,"Platform teams set efficiency baselines through infrastructure configuration",Pckfwqiml,specific_detail_from_few,1
+candidate_statement,"Product owners and managers prioritize optimization work","Pckfwqiml,Pbtv90iid",balanced_compromise,1
+candidate_statement,"Cloud providers and vendors shape impact through service design",Pckfwqiml,specific_detail_from_few,1
+candidate_statement,"Leadership must provide board-level support to make sustainability strategic priority",Pckfwqiml,specific_detail_from_few,1
+candidate_statement,"Decision-making currently fragmented: infrastructure teams, FinOps, ESG, developers each influencing without alignment","Pckfwqiml,Pbtv90iid,Pbmqyu2hw",strong_majority,2
+candidate_statement,"End users ultimately drive demand and should receive better information","Psgjwan_g,Pckfwqiml",minority_acknowledged,2
+candidate_statement,"Primary barrier not lack of intent - most people want to do right thing","Pckfwqiml,P8wgqcuub",majority_synthesis,2
+candidate_statement,"Insufficient visibility into energy consumption at decision-making levels",Pckfwqiml,specific_detail_from_few,2
+candidate_statement,"Constant delivery pressure deprioritizes sustainability work","Pckfwqiml,Pbtv90iid",strong_majority,2
+candidate_statement,"Misaligned incentives hinder progress",Pckfwqiml,specific_detail_from_few,2
+candidate_statement,"Separation between sustainability reporting and engineering practice",Pckfwqiml,specific_detail_from_few,2
+strong_agreement,"Responsibility distributed across multiple groups rather than concentrated in one role","P8wgqcuub,Pbmqyu2hw,Pckfwqiml,Pbtv90iid",unanimous,1
+strong_agreement,"Current efforts inadequate and fragmented with scattered decision-making","Pckfwqiml,Pbtv90iid,Pbmqyu2hw",strong_majority,1
+strong_agreement,"People generally intend to act responsibly but face systemic barriers","Pckfwqiml,P8wgqcuub",majority_synthesis,1
+strong_agreement,"Lack of visibility into actual energy consumption hampers progress",Pckfwqiml,specific_detail_from_few,1
+strong_agreement,"Operational pressures consistently deprioritize sustainability work","Pckfwqiml,Pbtv90iid",strong_majority,1
+areas_disagreement,"Some emphasize government regulation as essential foundation",P8wgqcuub,minority_acknowledged,1
+areas_disagreement,"Others place users as ultimate deciders since they drive demand",Psgjwan_g,minority_acknowledged,1
+areas_disagreement,"One perspective advocates dedicated cleanup crews with board support",Pckfwqiml,minority_acknowledged,1
+areas_disagreement,"Others focus on collective responsibility without dedicated structures","P8wgqcuub,Pbtv90iid",minority_acknowledged,1
+areas_disagreement,"Views differ on whether solution requires better user-facing information",Psgjwan_g,minority_acknowledged,2
+areas_disagreement,"Or whether focus should be on providing engineers better visibility into technical impacts",Pckfwqiml,minority_acknowledged,2

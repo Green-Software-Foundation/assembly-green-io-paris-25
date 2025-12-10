@@ -1,0 +1,91 @@
+Original block:
+```csv
+position_id,participant,question,consensus_status,consensus_location,evidence_text,representation_fidelity
+P001,P8wgqcuub,Q1,fully_adopted,candidate_statement,"Responsibility must be shared across multiple stakeholders, not owned by single group",high
+P002,P8wgqcuub,Q1,fully_adopted,candidate_statement,Governments should establish regulatory frameworks and sustainability goals,high
+P003,P8wgqcuub,Q1,fully_adopted,candidate_statement,Companies and institutions implement through practical technical and operational decisions,high
+P004,P8wgqcuub,Q1,implicit_in_synthesis,candidate_statement,Implied in discussion of collective decision-making across stakeholders,medium
+P005,P8wgqcuub,Q3,omitted_scope,none,Not directly addressed in consensus - cultural barrier not emphasized,none
+P006,P8wgqcuub,Q3,omitted_scope,none,Not directly addressed - values alignment not emphasized,none
+P007,Pbmqyu2hw,Q1,partially_adopted,candidate_statement,Regulators mentioned via governments; providers implied in companies,medium
+P008,Pbmqyu2hw,Q2,fully_adopted,strong_agreement,Current efforts inadequate and fragmented with scattered decision-making,high
+P009,Pbtv90iid,Q1,partially_adopted,candidate_statement,"Engineers mentioned but framed as influencing rather than having most control",medium
+P010,Pbtv90iid,Q2,partially_adopted,candidate_statement,"Product owners/managers prioritize work, executives implied in leadership",medium
+P011,Pbtv90iid,Q2,partially_adopted,candidate_statement,Cloud providers mentioned as shaping impact through service design,medium
+P012,Pbtv90iid,Q3,fully_adopted,candidate_statement,Constant delivery pressure deprioritizes sustainability work,high
+P013,Pbtv90iid,Q3,implicit_in_synthesis,candidate_statement,Implied in cloud abstraction discussion,low
+P014,Pbtv90iid,Q3,omitted_scope,none,Monetization barrier not included in consensus,none
+P015,Pckfwqiml,Q1,fully_adopted,candidate_statement,Engineers and architects influence impact through design choices affecting energy,high
+P016,Pckfwqiml,Q1,fully_adopted,candidate_statement,Platform teams set efficiency baselines through infrastructure configuration,high
+P017,Pckfwqiml,Q1,fully_adopted,candidate_statement,Product owners and managers prioritize optimization work,high
+P018,Pckfwqiml,Q1,fully_adopted,candidate_statement,Cloud providers and vendors shape impact through service design,high
+P019,Pckfwqiml,Q1,fully_adopted,candidate_statement,Leadership must provide board-level support,high
+P020,Pckfwqiml,Q1,fully_adopted,candidate_statement,Most people want to do right thing - barrier not lack of intent,high
+P021,Pckfwqiml,Q2,fully_adopted,candidate_statement,Infrastructure teams mentioned in fragmented decision-making,high
+P022,Pckfwqiml,Q2,fully_adopted,candidate_statement,FinOps mentioned in fragmented decision-making,high
+P023,Pckfwqiml,Q2,partially_adopted,candidate_statement,Developers mentioned as influencing without alignment,medium
+P024,Pckfwqiml,Q2,fully_adopted,candidate_statement,ESG functions mentioned; separation between reporting and practice noted,high
+P025,Pckfwqiml,Q2,fully_adopted,strong_agreement,Decision-making scattered across disconnected functions,high
+P026,Pckfwqiml,Q2,acknowledged_in_disagreement_section,areas_disagreement,One perspective advocates dedicated cleanup crews with board support,high
+P027,Pckfwqiml,Q2,acknowledged_in_disagreement_section,areas_disagreement,Board support mentioned in cleanup crew discussion,high
+P028,Pckfwqiml,Q3,fully_adopted,candidate_statement,Insufficient visibility into energy consumption at decision-making levels,high
+P029,Pckfwqiml,Q3,fully_adopted,candidate_statement,Constant delivery pressure deprioritizes sustainability work,high
+P030,Pckfwqiml,Q3,fully_adopted,candidate_statement,Separation between sustainability reporting and engineering practice,high
+P031,Pckfwqiml,Q3,implicit_in_synthesis,candidate_statement,Cloud abstraction implied in vendor/provider discussion,low
+P032,Pckfwqiml,Q3,omitted_scope,none,Cultural assumptions not explicitly addressed,none
+P033,Pckfwqiml,Q3,fully_adopted,candidate_statement,People work in systems with time pressure and competing demands,high
+P034,Psgjwan_g,Q1,acknowledged_in_disagreement_section,areas_disagreement,Users as ultimate deciders acknowledged as minority position,high
+P035,Psgjwan_g,Q1,partially_adopted,candidate_statement,End users should receive better information,medium
+P036,Psgjwan_g,Q2,omitted_scope,none,Information providers as decision-makers not addressed,none
+P037,Psgjwan_g,Q2,omitted_scope,none,Motivations of information providers not addressed,none
+P038,Psgjwan_g,Q2,omitted_scope,none,Specific cloud SLA critique not included,none
+P039,Psgjwan_g,Q2,implicit_in_synthesis,candidate_statement,Ex-post reporting implied in ESG/reporting separation discussion,low
+P040,Psgjwan_g,Q3,acknowledged_in_disagreement_section,areas_disagreement,Need for local vs aggregated data acknowledged in information debate,medium
+P041,Psgjwan_g,Q3,acknowledged_in_disagreement_section,areas_disagreement,Financial/social incentives implied in user information discussion,low
+P042,Psgjwan_g,Q3,omitted_scope,none,Hardware location decisions not addressed,none
+```
+
+Cleaned content:
+position_id,participant,question,consensus_status,consensus_location,evidence_text,representation_fidelity
+P001,P8wgqcuub,Q1,fully_adopted,candidate_statement,"Responsibility must be shared across multiple stakeholders, not owned by single group",high
+P002,P8wgqcuub,Q1,fully_adopted,candidate_statement,Governments should establish regulatory frameworks and sustainability goals,high
+P003,P8wgqcuub,Q1,fully_adopted,candidate_statement,Companies and institutions implement through practical technical and operational decisions,high
+P004,P8wgqcuub,Q1,implicit_in_synthesis,candidate_statement,Implied in discussion of collective decision-making across stakeholders,medium
+P005,P8wgqcuub,Q3,omitted_scope,none,Not directly addressed in consensus - cultural barrier not emphasized,none
+P006,P8wgqcuub,Q3,omitted_scope,none,Not directly addressed - values alignment not emphasized,none
+P007,Pbmqyu2hw,Q1,partially_adopted,candidate_statement,Regulators mentioned via governments; providers implied in companies,medium
+P008,Pbmqyu2hw,Q2,fully_adopted,strong_agreement,Current efforts inadequate and fragmented with scattered decision-making,high
+P009,Pbtv90iid,Q1,partially_adopted,candidate_statement,"Engineers mentioned but framed as influencing rather than having most control",medium
+P010,Pbtv90iid,Q2,partially_adopted,candidate_statement,"Product owners/managers prioritize work, executives implied in leadership",medium
+P011,Pbtv90iid,Q2,partially_adopted,candidate_statement,Cloud providers mentioned as shaping impact through service design,medium
+P012,Pbtv90iid,Q3,fully_adopted,candidate_statement,Constant delivery pressure deprioritizes sustainability work,high
+P013,Pbtv90iid,Q3,implicit_in_synthesis,candidate_statement,Implied in cloud abstraction discussion,low
+P014,Pbtv90iid,Q3,omitted_scope,none,Monetization barrier not included in consensus,none
+P015,Pckfwqiml,Q1,fully_adopted,candidate_statement,Engineers and architects influence impact through design choices affecting energy,high
+P016,Pckfwqiml,Q1,fully_adopted,candidate_statement,Platform teams set efficiency baselines through infrastructure configuration,high
+P017,Pckfwqiml,Q1,fully_adopted,candidate_statement,Product owners and managers prioritize optimization work,high
+P018,Pckfwqiml,Q1,fully_adopted,candidate_statement,Cloud providers and vendors shape impact through service design,high
+P019,Pckfwqiml,Q1,fully_adopted,candidate_statement,Leadership must provide board-level support,high
+P020,Pckfwqiml,Q1,fully_adopted,candidate_statement,Most people want to do right thing - barrier not lack of intent,high
+P021,Pckfwqiml,Q2,fully_adopted,candidate_statement,Infrastructure teams mentioned in fragmented decision-making,high
+P022,Pckfwqiml,Q2,fully_adopted,candidate_statement,FinOps mentioned in fragmented decision-making,high
+P023,Pckfwqiml,Q2,partially_adopted,candidate_statement,Developers mentioned as influencing without alignment,medium
+P024,Pckfwqiml,Q2,fully_adopted,candidate_statement,ESG functions mentioned; separation between reporting and practice noted,high
+P025,Pckfwqiml,Q2,fully_adopted,strong_agreement,Decision-making scattered across disconnected functions,high
+P026,Pckfwqiml,Q2,acknowledged_in_disagreement_section,areas_disagreement,One perspective advocates dedicated cleanup crews with board support,high
+P027,Pckfwqiml,Q2,acknowledged_in_disagreement_section,areas_disagreement,Board support mentioned in cleanup crew discussion,high
+P028,Pckfwqiml,Q3,fully_adopted,candidate_statement,Insufficient visibility into energy consumption at decision-making levels,high
+P029,Pckfwqiml,Q3,fully_adopted,candidate_statement,Constant delivery pressure deprioritizes sustainability work,high
+P030,Pckfwqiml,Q3,fully_adopted,candidate_statement,Separation between sustainability reporting and engineering practice,high
+P031,Pckfwqiml,Q3,implicit_in_synthesis,candidate_statement,Cloud abstraction implied in vendor/provider discussion,low
+P032,Pckfwqiml,Q3,omitted_scope,none,Cultural assumptions not explicitly addressed,none
+P033,Pckfwqiml,Q3,fully_adopted,candidate_statement,People work in systems with time pressure and competing demands,high
+P034,Psgjwan_g,Q1,acknowledged_in_disagreement_section,areas_disagreement,Users as ultimate deciders acknowledged as minority position,high
+P035,Psgjwan_g,Q1,partially_adopted,candidate_statement,End users should receive better information,medium
+P036,Psgjwan_g,Q2,omitted_scope,none,Information providers as decision-makers not addressed,none
+P037,Psgjwan_g,Q2,omitted_scope,none,Motivations of information providers not addressed,none
+P038,Psgjwan_g,Q2,omitted_scope,none,Specific cloud SLA critique not included,none
+P039,Psgjwan_g,Q2,implicit_in_synthesis,candidate_statement,Ex-post reporting implied in ESG/reporting separation discussion,low
+P040,Psgjwan_g,Q3,acknowledged_in_disagreement_section,areas_disagreement,Need for local vs aggregated data acknowledged in information debate,medium
+P041,Psgjwan_g,Q3,acknowledged_in_disagreement_section,areas_disagreement,Financial/social incentives implied in user information discussion,low
+P042,Psgjwan_g,Q3,omitted_scope,none,Hardware location decisions not addressed,none

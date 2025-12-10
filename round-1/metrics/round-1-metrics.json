@@ -1,0 +1,58 @@
+{
+  "input": {
+    "total_participants": 46,
+    "n_themes": 14,
+    "theme_distribution": {
+      "shared_responsibility": 6,
+      "governance_and_regulation": 4,
+      "organizational_barriers": 5,
+      "visibility_and_measurement": 3,
+      "stakeholder_alignment": 4,
+      "time_and_resource_constraints": 4,
+      "information_quality": 2,
+      "user_accountability": 1,
+      "decision_maker_identification": 5,
+      "vendor_influence": 2,
+      "cultural_assumptions": 2,
+      "financial_priorities": 3,
+      "leadership_support": 2,
+      "distributed_decision_making": 3
+    }
+  },
+  "hill_numbers": {
+    "q0_richness": 14,
+    "q1_typical_shannon": 12.78,
+    "q2_dominant_hhi": 11.89
+  },
+  "herfindahl_hirschman_index": {
+    "hhi_raw": 0.0841,
+    "inverse_hhi_effective_n": 11.89,
+    "hhi_normalized": 0.0137,
+    "interpretation": "Probability two random responses share same theme"
+  },
+  "shannon_entropy": {
+    "shannon_bits": 3.676,
+    "shannon_nats": 2.548,
+    "effective_n_exp_shannon": 12.78,
+    "interpretation": "Information content / bits needed to identify theme"
+  },
+  "simpson_index": {
+    "simpson_lambda": 0.0841,
+    "simpson_diversity": 0.9159,
+    "interpretation": "Probability two random responses differ"
+  },
+  "summary_metrics": {
+    "richness": 14,
+    "effective_n_hhi": 11.89,
+    "effective_n_shannon": 12.78,
+    "balance": 0.913,
+    "consensus_level": "very_high_diversity"
+  },
+  "interpretation": {
+    "diversity_level": "Very high (divergent)",
+    "balance": "well-balanced (themes equally represented)",
+    "minority_views": "Natural convergence pattern",
+    "consensus_readiness": "NOT READY: Substantial diversity remains",
+    "summary": "Very high (divergent) diversity across 14 themes, well-balanced (themes equally represented). Natural convergence pattern."
+  }
+}
