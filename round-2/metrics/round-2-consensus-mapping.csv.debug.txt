@@ -1,81 +1,87 @@
 Original block:
 ```csv
 consensus_section,consensus_text,source_participants,representation_type,paragraph_number
-core_challenge,Organizations struggle with whether to make sustainability everyone's responsibility or concentrate it in dedicated roles,P8wgqcuub|Pa52wwkew|Pasy-zppz|Piid_rtgn,balanced_compromise,1
-core_challenge,Current structures fragment accountability—sustainability gets deprioritized when it competes with delivery pressure,Pa52wwkew|P8wgqcuub,strong_majority,1
-core_challenge,sustainability gets deprioritized when it competes with delivery pressure and lacks clear ownership,All participants,unanimous,1
-current_state,Sustainability discussions happen in code reviews around efficiency and cost,P8wgqcuub,specific_detail_from_few,1
-current_state,environmental considerations remain secondary,P8wgqcuub|Pa52wwkew,majority_synthesis,1
-current_state,Information about environmental impact doesn't flow effectively between stakeholders,Pa52wwkew|Pbh-u6glt,majority_synthesis,1
-current_state,When sustainability is everyone's job it risks becoming no one's priority,Pasy-zppz|Piid_rtgn|Pa52wwkew,strong_majority,1
-what_participants_believe,Participants describe a transitional model: dedicated teams initially,Pa52wwkew|P8wgqcuub,majority_synthesis,1
-what_participants_believe,then gradual integration into existing roles as sustainability becomes embedded,Pa52wwkew|P8wgqcuub,majority_synthesis,1
-what_participants_believe,This requires explicit accountability mechanisms—integrating sustainability targets into senior leadership KPIs,Piid_rtgn,specific_detail_from_few,1
-what_participants_believe,incorporating environmental impact into existing processes like code reviews,P8wgqcuub,specific_detail_from_few,1
-what_participants_believe,establishing communication channels between technical implementers and decision-makers,Pa52wwkew,specific_detail_from_few,1
-what_participants_believe,Legal incentives are needed to elevate sustainability to strategic priority status,Pa52wwkew,specific_detail_from_few,1
-practical_approaches,adding sustainability questions to existing review processes,P8wgqcuub,specific_detail_from_few,1
-practical_approaches,creating examples from successful implementations,Pa52wwkew,specific_detail_from_few,1
-practical_approaches,developing standardized measurement frameworks,Pa52wwkew,specific_detail_from_few,1
-practical_approaches,emphasis is on building from current practices rather than creating parallel structures,P8wgqcuub|Pa52wwkew|Puc8qnfbg,strong_majority,1
-path_forward,Initial specialist roles can bootstrap capability,Pa52wwkew|P8wgqcuub|Pbh-u6glt,strong_majority,1
-path_forward,working toward sustainability becoming intrinsic to all technical and business decisions,All participants,unanimous,1
-areas_agreement,sustainability should ultimately be integrated into everyone's work rather than isolated,All participants,unanimous,1
-areas_agreement,people want to act responsibly but lack adequate information standardized tools and organizational support,Pbh-u6glt|Pa52wwkew|P8wgqcuub,strong_majority,1
-areas_agreement,financial priorities currently overshadow environmental concerns,Pa52wwkew|Pbh-u6glt,majority_synthesis,1
-areas_agreement,this imbalance needs correction through external pressure (legal requirements),Pa52wwkew,specific_detail_from_few,1
-areas_agreement,and internal mechanisms (leadership accountability performance metrics),Piid_rtgn|P8wgqcuub,majority_synthesis,1
-areas_agreement,fragmented decision-making hampers progress,Pa52wwkew,specific_detail_from_few,1
-areas_agreement,communication between stakeholders must improve,Pa52wwkew|Pbh-u6glt,majority_synthesis,1
-areas_agreement,automotive responsibility analogy—where manufacturers suppliers and users each play distinct roles,Puc8qnfbg,specific_detail_from_few,1
-areas_disagreement,some participants advocate strongly for dedicated sustainability teams or consultants,Pa52wwkew|Pbh-u6glt|P8wgqcuub,strong_majority,1
-areas_disagreement,others worry this approach creates tokenistic responses where people defer to the green guy,Pasy-zppz|Piid_rtgn,majority_synthesis,1
-areas_disagreement,One perspective emphasizes that dedicated roles risk adding friction and reducing individual concern,Pasy-zppz,specific_detail_from_few,1
-areas_disagreement,another argues dedicated teams are essential to kickstart efforts and establish standards,Pa52wwkew|P8wgqcuub,majority_synthesis,1
-areas_disagreement,Some place legal incentives and regulatory frameworks as the necessary foundation,Pa52wwkew,specific_detail_from_few,1
-areas_disagreement,others focus on internal cultural transformation and leadership commitment,P8wgqcuub|Piid_rtgn|Pbh-u6glt,strong_majority,1
-conflicting_positions,concern that separate roles lead to deflection of responsibility,Pasy-zppz|Piid_rtgn,majority_synthesis,1
-conflicting_positions,conflicts with view that specialized expertise is required to establish effective practices,Pa52wwkew|P8wgqcuub|Pbh-u6glt,strong_majority,1
-conflicting_positions,those advocating dedicated teams describe them as temporary bootstrapping mechanisms,Pa52wwkew,specific_detail_from_few,1
-conflicting_positions,question is how to provide necessary expertise without fragmenting responsibility,All participants,unanimous,1
+tldr,Dedicated teams initially to build capacity and establish standards,Pa52wwkew,specific_detail_from_few,1
+tldr,Followed by integration into everyone's responsibilities,P8wgqcuub;Pasy-zppz;Piid_rtgn;Puc8qnfbg,majority_synthesis,1
+tldr,Through performance frameworks cultural change and standardized measurement,Pa52wwkew;Piid_rtgn,balanced_compromise,1
+core_challenge,Responsibility is diffused without clear mechanisms for implementation,Pa52wwkew;Pbh-u6glt,majority_synthesis,1
+core_challenge,While participants agree everyone should ultimately be responsible,P8wgqcuub;Pasy-zppz;Piid_rtgn;Pbh-u6glt;Puc8qnfbg,unanimous,1
+core_challenge,This creates accountability gaps in practice,Pa52wwkew;Piid_rtgn,balanced_compromise,1
+current_state,Sustainability efforts lack coordination with fragmented approaches,Pa52wwkew,specific_detail_from_few,1
+current_state,No standardized framework for measurement or reporting,Pa52wwkew,specific_detail_from_few,1
+current_state,Management prioritizes financial metrics over environmental ones,Pa52wwkew,specific_detail_from_few,1
+current_state,Individual contributors lack clear guidance on sustainable practices,Pbh-u6glt,specific_detail_from_few,1
+what_needed,Dedicated sustainability teams should launch organizational efforts,Pa52wwkew,specific_detail_from_few,1
+what_needed,Teams gather information establish workflows create measurement frameworks,Pa52wwkew,specific_detail_from_few,1
+what_needed,Build capacity and spread knowledge until embedded in culture,Pa52wwkew;P8wgqcuub,balanced_compromise,1
+what_needed,Sustainability metrics integrated into senior leadership KPIs,Piid_rtgn,specific_detail_from_few,1
+what_needed,Legal incentives needed to shift management mindset,Pa52wwkew,specific_detail_from_few,1
+what_needed,Open standardized frameworks for measuring and reporting,Pa52wwkew,specific_detail_from_few,1
+practical_approaches,Start conversations in teams about sustainability trade-offs in code reviews,P8wgqcuub,specific_detail_from_few,1
+practical_approaches,Use initial dedicated team successes as examples to spread practices,Pa52wwkew,specific_detail_from_few,1
+practical_approaches,Incorporate green targets into existing performance frameworks,Piid_rtgn,specific_detail_from_few,1
+path_forward,Begin with focused teams to establish foundation and tools,Pa52wwkew,specific_detail_from_few,1
+path_forward,Transition toward distributed responsibility once cultural shift achieved,Pa52wwkew;P8wgqcuub,balanced_compromise,1
+areas_agreement,Responsibility should ultimately be distributed across all roles,P8wgqcuub;Pasy-zppz;Piid_rtgn;Pbh-u6glt;Puc8qnfbg,unanimous,1
+areas_agreement,Requires foundational work first,Pa52wwkew;P8wgqcuub;Pbh-u6glt,majority_synthesis,1
+areas_agreement,Current fragmentation blocks progress,Pa52wwkew,specific_detail_from_few,1
+areas_agreement,Standardized measurement frameworks are essential,Pa52wwkew,specific_detail_from_few,1
+areas_agreement,Management mindset change necessary driven by legal incentives and KPIs,Pa52wwkew;Piid_rtgn,balanced_compromise,1
+areas_agreement,Dedicated roles risk tokenism if permanent but valuable for kickstarting,Pa52wwkew;Piid_rtgn,balanced_compromise,1
+areas_agreement,Sustainability integrated into daily work like code reviews and design,P8wgqcuub,specific_detail_from_few,1
+areas_agreement,Becoming part of core organizational culture not separate initiatives,P8wgqcuub;Pa52wwkew,balanced_compromise,1
+areas_disagreement,Some emphasize immediate integration to avoid friction of dedicated teams,Pasy-zppz;Piid_rtgn,minority_acknowledged,1
+areas_disagreement,Separate roles lead to go speak to our green guy dynamics,Piid_rtgn,minority_acknowledged,1
+areas_disagreement,Others stress necessity of dedicated teams initially,Pa52wwkew,minority_acknowledged,1
+areas_disagreement,To establish expertise tools and workflows before broader distribution,Pa52wwkew,minority_acknowledged,1
+areas_disagreement,Some emphasize individual actions and team-level cultural shifts,P8wgqcuub;Puc8qnfbg,minority_acknowledged,1
+areas_disagreement,Others focus on executive accountability through KPIs and regulatory pressure,Piid_rtgn;Pa52wwkew,minority_acknowledged,1
+conflicting_positions,Some warn separate sustainability roles cause tokenistic responses,Piid_rtgn;Pasy-zppz,minority_acknowledged,1
+conflicting_positions,Reduces everyone else's engagement advocating immediate integration,Piid_rtgn;Pasy-zppz,minority_acknowledged,1
+conflicting_positions,Others argue dedicated teams essential prerequisites to build capacity,Pa52wwkew,minority_acknowledged,1
+conflicting_positions,May represent different organizational contexts,Pa52wwkew;Piid_rtgn;Pasy-zppz,balanced_compromise,1
+conflicting_positions,Whether dedicated teams help or hinder depends on structure and transition,Pa52wwkew,balanced_compromise,1
 ```
 
 Cleaned content:
 consensus_section,consensus_text,source_participants,representation_type,paragraph_number
-core_challenge,Organizations struggle with whether to make sustainability everyone's responsibility or concentrate it in dedicated roles,P8wgqcuub|Pa52wwkew|Pasy-zppz|Piid_rtgn,balanced_compromise,1
-core_challenge,Current structures fragment accountability—sustainability gets deprioritized when it competes with delivery pressure,Pa52wwkew|P8wgqcuub,strong_majority,1
-core_challenge,sustainability gets deprioritized when it competes with delivery pressure and lacks clear ownership,All participants,unanimous,1
-current_state,Sustainability discussions happen in code reviews around efficiency and cost,P8wgqcuub,specific_detail_from_few,1
-current_state,environmental considerations remain secondary,P8wgqcuub|Pa52wwkew,majority_synthesis,1
-current_state,Information about environmental impact doesn't flow effectively between stakeholders,Pa52wwkew|Pbh-u6glt,majority_synthesis,1
-current_state,When sustainability is everyone's job it risks becoming no one's priority,Pasy-zppz|Piid_rtgn|Pa52wwkew,strong_majority,1
-what_participants_believe,Participants describe a transitional model: dedicated teams initially,Pa52wwkew|P8wgqcuub,majority_synthesis,1
-what_participants_believe,then gradual integration into existing roles as sustainability becomes embedded,Pa52wwkew|P8wgqcuub,majority_synthesis,1
-what_participants_believe,This requires explicit accountability mechanisms—integrating sustainability targets into senior leadership KPIs,Piid_rtgn,specific_detail_from_few,1
-what_participants_believe,incorporating environmental impact into existing processes like code reviews,P8wgqcuub,specific_detail_from_few,1
-what_participants_believe,establishing communication channels between technical implementers and decision-makers,Pa52wwkew,specific_detail_from_few,1
-what_participants_believe,Legal incentives are needed to elevate sustainability to strategic priority status,Pa52wwkew,specific_detail_from_few,1
-practical_approaches,adding sustainability questions to existing review processes,P8wgqcuub,specific_detail_from_few,1
-practical_approaches,creating examples from successful implementations,Pa52wwkew,specific_detail_from_few,1
-practical_approaches,developing standardized measurement frameworks,Pa52wwkew,specific_detail_from_few,1
-practical_approaches,emphasis is on building from current practices rather than creating parallel structures,P8wgqcuub|Pa52wwkew|Puc8qnfbg,strong_majority,1
-path_forward,Initial specialist roles can bootstrap capability,Pa52wwkew|P8wgqcuub|Pbh-u6glt,strong_majority,1
-path_forward,working toward sustainability becoming intrinsic to all technical and business decisions,All participants,unanimous,1
-areas_agreement,sustainability should ultimately be integrated into everyone's work rather than isolated,All participants,unanimous,1
-areas_agreement,people want to act responsibly but lack adequate information standardized tools and organizational support,Pbh-u6glt|Pa52wwkew|P8wgqcuub,strong_majority,1
-areas_agreement,financial priorities currently overshadow environmental concerns,Pa52wwkew|Pbh-u6glt,majority_synthesis,1
-areas_agreement,this imbalance needs correction through external pressure (legal requirements),Pa52wwkew,specific_detail_from_few,1
-areas_agreement,and internal mechanisms (leadership accountability performance metrics),Piid_rtgn|P8wgqcuub,majority_synthesis,1
-areas_agreement,fragmented decision-making hampers progress,Pa52wwkew,specific_detail_from_few,1
-areas_agreement,communication between stakeholders must improve,Pa52wwkew|Pbh-u6glt,majority_synthesis,1
-areas_agreement,automotive responsibility analogy—where manufacturers suppliers and users each play distinct roles,Puc8qnfbg,specific_detail_from_few,1
-areas_disagreement,some participants advocate strongly for dedicated sustainability teams or consultants,Pa52wwkew|Pbh-u6glt|P8wgqcuub,strong_majority,1
-areas_disagreement,others worry this approach creates tokenistic responses where people defer to the green guy,Pasy-zppz|Piid_rtgn,majority_synthesis,1
-areas_disagreement,One perspective emphasizes that dedicated roles risk adding friction and reducing individual concern,Pasy-zppz,specific_detail_from_few,1
-areas_disagreement,another argues dedicated teams are essential to kickstart efforts and establish standards,Pa52wwkew|P8wgqcuub,majority_synthesis,1
-areas_disagreement,Some place legal incentives and regulatory frameworks as the necessary foundation,Pa52wwkew,specific_detail_from_few,1
-areas_disagreement,others focus on internal cultural transformation and leadership commitment,P8wgqcuub|Piid_rtgn|Pbh-u6glt,strong_majority,1
-conflicting_positions,concern that separate roles lead to deflection of responsibility,Pasy-zppz|Piid_rtgn,majority_synthesis,1
-conflicting_positions,conflicts with view that specialized expertise is required to establish effective practices,Pa52wwkew|P8wgqcuub|Pbh-u6glt,strong_majority,1
-conflicting_positions,those advocating dedicated teams describe them as temporary bootstrapping mechanisms,Pa52wwkew,specific_detail_from_few,1
-conflicting_positions,question is how to provide necessary expertise without fragmenting responsibility,All participants,unanimous,1
+tldr,Dedicated teams initially to build capacity and establish standards,Pa52wwkew,specific_detail_from_few,1
+tldr,Followed by integration into everyone's responsibilities,P8wgqcuub;Pasy-zppz;Piid_rtgn;Puc8qnfbg,majority_synthesis,1
+tldr,Through performance frameworks cultural change and standardized measurement,Pa52wwkew;Piid_rtgn,balanced_compromise,1
+core_challenge,Responsibility is diffused without clear mechanisms for implementation,Pa52wwkew;Pbh-u6glt,majority_synthesis,1
+core_challenge,While participants agree everyone should ultimately be responsible,P8wgqcuub;Pasy-zppz;Piid_rtgn;Pbh-u6glt;Puc8qnfbg,unanimous,1
+core_challenge,This creates accountability gaps in practice,Pa52wwkew;Piid_rtgn,balanced_compromise,1
+current_state,Sustainability efforts lack coordination with fragmented approaches,Pa52wwkew,specific_detail_from_few,1
+current_state,No standardized framework for measurement or reporting,Pa52wwkew,specific_detail_from_few,1
+current_state,Management prioritizes financial metrics over environmental ones,Pa52wwkew,specific_detail_from_few,1
+current_state,Individual contributors lack clear guidance on sustainable practices,Pbh-u6glt,specific_detail_from_few,1
+what_needed,Dedicated sustainability teams should launch organizational efforts,Pa52wwkew,specific_detail_from_few,1
+what_needed,Teams gather information establish workflows create measurement frameworks,Pa52wwkew,specific_detail_from_few,1
+what_needed,Build capacity and spread knowledge until embedded in culture,Pa52wwkew;P8wgqcuub,balanced_compromise,1
+what_needed,Sustainability metrics integrated into senior leadership KPIs,Piid_rtgn,specific_detail_from_few,1
+what_needed,Legal incentives needed to shift management mindset,Pa52wwkew,specific_detail_from_few,1
+what_needed,Open standardized frameworks for measuring and reporting,Pa52wwkew,specific_detail_from_few,1
+practical_approaches,Start conversations in teams about sustainability trade-offs in code reviews,P8wgqcuub,specific_detail_from_few,1
+practical_approaches,Use initial dedicated team successes as examples to spread practices,Pa52wwkew,specific_detail_from_few,1
+practical_approaches,Incorporate green targets into existing performance frameworks,Piid_rtgn,specific_detail_from_few,1
+path_forward,Begin with focused teams to establish foundation and tools,Pa52wwkew,specific_detail_from_few,1
+path_forward,Transition toward distributed responsibility once cultural shift achieved,Pa52wwkew;P8wgqcuub,balanced_compromise,1
+areas_agreement,Responsibility should ultimately be distributed across all roles,P8wgqcuub;Pasy-zppz;Piid_rtgn;Pbh-u6glt;Puc8qnfbg,unanimous,1
+areas_agreement,Requires foundational work first,Pa52wwkew;P8wgqcuub;Pbh-u6glt,majority_synthesis,1
+areas_agreement,Current fragmentation blocks progress,Pa52wwkew,specific_detail_from_few,1
+areas_agreement,Standardized measurement frameworks are essential,Pa52wwkew,specific_detail_from_few,1
+areas_agreement,Management mindset change necessary driven by legal incentives and KPIs,Pa52wwkew;Piid_rtgn,balanced_compromise,1
+areas_agreement,Dedicated roles risk tokenism if permanent but valuable for kickstarting,Pa52wwkew;Piid_rtgn,balanced_compromise,1
+areas_agreement,Sustainability integrated into daily work like code reviews and design,P8wgqcuub,specific_detail_from_few,1
+areas_agreement,Becoming part of core organizational culture not separate initiatives,P8wgqcuub;Pa52wwkew,balanced_compromise,1
+areas_disagreement,Some emphasize immediate integration to avoid friction of dedicated teams,Pasy-zppz;Piid_rtgn,minority_acknowledged,1
+areas_disagreement,Separate roles lead to go speak to our green guy dynamics,Piid_rtgn,minority_acknowledged,1
+areas_disagreement,Others stress necessity of dedicated teams initially,Pa52wwkew,minority_acknowledged,1
+areas_disagreement,To establish expertise tools and workflows before broader distribution,Pa52wwkew,minority_acknowledged,1
+areas_disagreement,Some emphasize individual actions and team-level cultural shifts,P8wgqcuub;Puc8qnfbg,minority_acknowledged,1
+areas_disagreement,Others focus on executive accountability through KPIs and regulatory pressure,Piid_rtgn;Pa52wwkew,minority_acknowledged,1
+conflicting_positions,Some warn separate sustainability roles cause tokenistic responses,Piid_rtgn;Pasy-zppz,minority_acknowledged,1
+conflicting_positions,Reduces everyone else's engagement advocating immediate integration,Piid_rtgn;Pasy-zppz,minority_acknowledged,1
+conflicting_positions,Others argue dedicated teams essential prerequisites to build capacity,Pa52wwkew,minority_acknowledged,1
+conflicting_positions,May represent different organizational contexts,Pa52wwkew;Piid_rtgn;Pasy-zppz,balanced_compromise,1
+conflicting_positions,Whether dedicated teams help or hinder depends on structure and transition,Pa52wwkew,balanced_compromise,1

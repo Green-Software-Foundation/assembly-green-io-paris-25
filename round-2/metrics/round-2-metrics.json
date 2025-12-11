@@ -1,47 +1,48 @@
 {
   "input": {
-    "total_participants": 29,
-    "n_themes": 10,
+    "total_participants": 31,
+    "n_themes": 11,
     "theme_distribution": {
-      "cultural_change": 4,
-      "shared_responsibility": 5,
+      "organizational_culture_change": 5,
+      "distributed_responsibility": 5,
       "leadership_and_governance": 4,
-      "organizational_structures": 3,
-      "communication_and_stakeholder_alignment": 2,
-      "incentives_and_accountability": 3,
-      "visibility_and_measurement": 2,
-      "knowledge_and_expertise": 2,
-      "policy_integration": 2,
-      "user_awareness": 2
+      "stakeholder_communication": 3,
+      "dedicated_sustainability_roles": 3,
+      "incentive_structures": 3,
+      "integration_into_existing_roles": 2,
+      "measurement_and_standards": 2,
+      "awareness_and_education": 2,
+      "policy_and_regulation": 1,
+      "collective_accountability": 1
     }
   },
   "hill_numbers": {
-    "q0_richness": 10,
-    "q1_typical_shannon": 9.4,
-    "q2_dominant_hhi": 8.85
+    "q0_richness": 11,
+    "q1_typical_shannon": 9.8,
+    "q2_dominant_hhi": 8.98
   },
   "herfindahl_hirschman_index": {
-    "hhi_raw": 0.113,
-    "inverse_hhi_effective_n": 8.85,
-    "hhi_normalized": 0.0144,
+    "hhi_raw": 0.1113,
+    "inverse_hhi_effective_n": 8.98,
+    "hhi_normalized": 0.0225,
     "interpretation": "Probability two random responses share same theme"
   },
   "shannon_entropy": {
-    "shannon_bits": 3.233,
-    "shannon_nats": 2.241,
-    "effective_n_exp_shannon": 9.4,
+    "shannon_bits": 3.293,
+    "shannon_nats": 2.283,
+    "effective_n_exp_shannon": 9.8,
     "interpretation": "Information content / bits needed to identify theme"
   },
   "simpson_index": {
-    "simpson_lambda": 0.113,
-    "simpson_diversity": 0.887,
+    "simpson_lambda": 0.1113,
+    "simpson_diversity": 0.8887,
     "interpretation": "Probability two random responses differ"
   },
   "summary_metrics": {
-    "richness": 10,
-    "effective_n_hhi": 8.85,
-    "effective_n_shannon": 9.4,
-    "balance": 0.94,
+    "richness": 11,
+    "effective_n_hhi": 8.98,
+    "effective_n_shannon": 9.8,
+    "balance": 0.891,
     "consensus_level": "very_high_diversity"
   },
   "interpretation": {
@@ -49,6 +50,6 @@
     "balance": "well-balanced (themes equally represented)",
     "minority_views": "Natural convergence pattern",
     "consensus_readiness": "NOT READY: Substantial diversity remains",
-    "summary": "Very high (divergent) diversity across 10 themes, well-balanced (themes equally represented). Natural convergence pattern."
+    "summary": "Very high (divergent) diversity across 11 themes, well-balanced (themes equally represented). Natural convergence pattern."
   }
 }
